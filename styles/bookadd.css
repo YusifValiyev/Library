@@ -1,0 +1,12 @@
+@import url('./admin.css');
+
+.add-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+button {
+    width: 100%;
+}

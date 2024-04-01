@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('../assets/images/login.avif');
+}
+
+.login-container {
+    width: 400px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    gap: 10px;
+    background: white;
+}
+
+.login-container label {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.login-container a {
+    text-align: center;
+}

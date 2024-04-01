@@ -1,0 +1,21 @@
+@import url('./admin.css');
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: flex !important;
+    gap: 20px;
+}
+
+label select {
+    width: 20% !important;
+}
+
+button {
+    width: 100%;
+}

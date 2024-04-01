@@ -1,0 +1,13 @@
+@import url('./admin.css');
+
+.details-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    height: 100%;
+}
+
+.details-container .card {
+    padding: 40px;
+}
